@@ -196,7 +196,7 @@
 
 
                                 <div class="testimonial-item text-center">
-                                    <canvas id="bar-chart" width="800" height="400" style="max-width: 100%;"></canvas>
+                                    <canvas id="bar-chart" width="800" height="800" style="max-width: 100%;"></canvas>
                                     <script>
                                         var ctxbar_p2 = document.getElementById('bar-chart').getContext('2d');
                                         var myChartbar_p2= new Chart(ctxbar_p2, {
@@ -230,7 +230,7 @@
                                 </div>
 
                                 <div class="testimonial-item text-center">
-                                    <canvas id="bar-chart1" width="800" height="400" style="max-width: 100%;"></canvas>
+                                    <canvas id="bar-chart1" width="800" height="800" style="max-width: 100%;"></canvas>
                                     <script>
                                         var ctxbar = document.getElementById('bar-chart1').getContext('2d');
                                         var myChartbar = new Chart(ctxbar, {
@@ -322,7 +322,7 @@
                         <div class="bg-secondary rounded h-100 p-4">
                             <div class="owl-carousel testimonial-carousel">
                                 <div class="testimonial-item text-center">
-                                    <canvas id="bar-chart2" width="800" height="400" style="max-width: 100%;"></canvas>
+                                    <canvas id="bar-chart2" width="800" height="800" style="max-width: 100%;"></canvas>
                                     <script>
                                         var ctxb2 = document.getElementById('bar-chart2').getContext('2d');
                                         var myChart = new Chart(ctxb2, {
@@ -352,6 +352,7 @@
                                                         beginAtZero: true
                                                     }
                                                 },
+                                                responsive: true,
                                                 maintainAspectRatio: false
                                             }
                                         });                                    
